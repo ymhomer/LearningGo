@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "175067035228",
+    "firebase_url": "https://fypdb-ad3c4.firebaseio.com",
+    "project_id": "fypdb-ad3c4",
+    "storage_bucket": "fypdb-ad3c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175067035228:android:7ec289b2c3119aed",
+        "android_client_info": {
+          "package_name": "app.learninggo.com.learninggo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175067035228-5httl5rhdf0cfejsi19ubi240v6f7uel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAos9h4acB5S5MU6YLNv61eFWBd05kVB5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

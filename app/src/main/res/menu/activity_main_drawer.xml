@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/find"
+            android:icon="@drawable/find"
+            android:title="Search" />
+        <item
+            android:id="@+id/course"
+            android:icon="@drawable/course"
+            android:title="Course" />
+    </group>
+
+    <group >
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/feedback"
+                    android:icon="@drawable/feedback"
+                    android:title="Feedback" />
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/about"
+                    android:title="About" />
+            </menu>
+        </item>
+    </group>
+    <group >
+        <item
+            android:id="@+id/logout"
+            android:title="Log out" />
+    </group>
+
+</menu>

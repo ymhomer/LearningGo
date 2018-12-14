@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.learninggo.com.learninggo">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/learning_go2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/learning_go2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/SystemName"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CourseActivity"
+            android:label="Course">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="Feedback">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="About">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="Search">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.MainActivity" />
+        </activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".LoginMenuActivity" />
+        <activity
+            android:name=".LearnerLoginActivity"
+            android:label="Learner Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.IndexActivity" />
+        </activity>
+        <activity
+            android:name=".InstructorLoginActivity"
+            android:label="Instructor Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.IndexActivity" />
+        </activity>
+        <activity
+            android:name=".IndexActivity"
+            android:label="@string/SystemName"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProfileActivity"
+            android:label="Profile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.MainActivity" />
+        </activity>
+        <activity android:name=".Login2Activity" />
+        <activity
+            android:name=".Login3Activity"
+            android:label="@string/title_activity_login3">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.IndexActivity" />
+        </activity>
+        <activity android:name=".ReadFeedbackActivity" />
+        <activity android:name=".ProfileUpdateActivity"
+            android:label="Update Profile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.learninggo.com.learninggo.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
